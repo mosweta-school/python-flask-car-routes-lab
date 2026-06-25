@@ -1,7 +1,7 @@
 import io
 import sys
 
-from app import app
+from Starter.app import app
 
 class TestApp:
     '''Flask application in app.py'''
