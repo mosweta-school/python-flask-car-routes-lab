@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return '<h1>Welcome to Flatiron cars</h1>'
 
-@app.route('/<string:model>')
+@app.route('/<model>')
 def show_model(model):
     if model in existing_models:
         return f'Flatiron {model} is in our fleet!'
